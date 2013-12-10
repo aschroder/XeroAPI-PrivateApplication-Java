@@ -1,11 +1,13 @@
 This fork has two goals:
-1) Allow use on Google App Engine
-2) Allow public applications via scribe oath library
+
+1. Allow use on Google App Engine
+2. Allow public applications via scribe oath library
 
 The changes required were:
-1) Relax visibility of some XeroClient fields for subclassing
-2) Remove File I/O related PDF functions that are disallowed on GAE
-3) Add protected methods to change the HTTP client and pass optional extra parameters to it when invoked.
+
+1. Relax visibility of some XeroClient fields for subclassing
+2. Remove File I/O related PDF functions that are disallowed on GAE
+3. Add protected methods to change the HTTP client and pass optional extra parameters to it when invoked.
 
 Comments/suggestions welcome to @aschroder.
 
